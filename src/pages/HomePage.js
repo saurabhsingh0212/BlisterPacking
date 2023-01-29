@@ -13,7 +13,7 @@ import Quick from "images/protect.png";
 import Quality from "images/shield.png";
 import House from "images/home-page.png";
 import Team from "images/TeamPic.jpg";
-import HeroImg from "images/hero.jpeg";
+import HeroImg from "images/HomeHero.jpeg";
 import FactoryImg from "images/IMG_1177.jpg"
 export default () => {
   const HighlightedText = tw.span`bg-brown-200 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -29,7 +29,7 @@ export default () => {
         imageDecoratorBlob={true}
         primaryButtonText="Contact Us Now"
         primaryButtonUrl = "/contact_us"
-        watchVideoButtonText="Meet The Chefs"
+        watchVideoButtonText="Company Profile"
       />
       <MainFeature
         heading={

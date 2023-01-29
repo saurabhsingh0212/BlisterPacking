@@ -5,10 +5,11 @@ import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading as SubheadingBase } from "components/Headings.js";
 
-import { Container, ContentWithPaddingXl } from "components/Layouts.js";
+import { ContentWithPaddingXl } from "components/Layouts.js";
 import { ReactComponent as ChevronDownIcon } from "feather-icons/dist/icons/chevron-down.svg";
 import Footer from "components/Footer.js";
 import Header from "components/header.js";
+import AnimationRevealPage from "styles/AnimationRevealPage.js";
 
 const SectionDescription = tw.p`mt-4 text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100 max-w-xl`;
 const Subheading = tw(SubheadingBase)`mb-4 text-center`;
@@ -87,7 +88,7 @@ export default ({
   };
 
   return (
-    <Container>
+    <AnimationRevealPage>
       <Header/>
       <ContentWithPaddingXl>
         <Column>
@@ -136,6 +137,6 @@ export default ({
         </Column>
       </ContentWithPaddingXl>
       <Footer />
-    </Container>
+    </AnimationRevealPage>
   );
 };

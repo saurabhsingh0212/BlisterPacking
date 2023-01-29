@@ -9,6 +9,7 @@ import AboutUs from "pages/AboutUs";
 import FAQ from "pages/FAQ.js";
 import ContactUs from "pages/ContactUs.js";
 import OurFacilities from "pages/OurFacilities";
+import Products  from "pages/ProductsDesc";
 
 export default function App() {
   
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/facilities" element={<OurFacilities />} />
           <Route path="/contact_us" element={<ContactUs />} />
+          <Route path="/products" element={<Products />} />
         </Routes>
       </Router>
     </>

@@ -54,73 +54,73 @@ export default ({
         imageSrc:PackagingTrayImg,
         title: "Packaging Trays",
         content: "Blister Trays",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:DisplayTrayImg,
         title: "Display Trays",
         content: "Blister Trays",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:MaterialTrayImg,
         title: "Material Handling Trays",
         content: "Blister Trays",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:SealingTrayImg,
         title: "Sealing Blisters",
         content: "Card Blisters",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:SlidingTrayImg,
         title: "Sliding Blisters",
         content: "Card Blisters",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "Clamp Shells",
         content: "Card Blister",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "Welded Blisters",
         content: "Card Blister",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "Welded PP Box",
         content: "Plastic Box",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "PET & PVC Box",
         content: "Plastic Box",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "Magnet Flip Box",
         content: "Rigid Box",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "Top Bottom Box",
         content: "Rigid Box",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "Special Shape Boxes",
         content: "Rigid Box",
-        url: "#"
+        url: "/products"
       }
     ],
     Blisters: [
@@ -128,43 +128,43 @@ export default ({
         imageSrc:PackagingTrayImg,
         title: "Packaging Trays",
         content: "Blister Trays",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:DisplayTrayImg,
         title: "Display Trays",
         content: "Blister Trays",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "Material Handling Trays",
         content: "Blister Trays",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "Sealing Blisters",
         content: "Card Blisters",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "Sliding Blisters",
         content: "Card Blisters",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "Clamp Shells",
         content: "Card Blister",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "Welded Blisters",
         content: "Card Blister",
-        url: "#"
+        url: "/products"
       }
     ],
     Boxes: [
@@ -172,31 +172,31 @@ export default ({
         imageSrc:PackagingTrayImg,
         title: "Magnet Flip Box",
         content: "Rigid Box",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "Top Bottom Box",
         content: "Rigid Box",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "Special Shape Boxes",
         content: "Rigid Box",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "Welded PP Box",
         content: "Plastic Box",
-        url: "#"
+        url: "/products"
       },
       {
         imageSrc:PackagingTrayImg,
         title: "PET & PVC Box",
         content: "Plastic Box",
-        url: "#"
+        url: "/products"
       }
     ],
     DisplayArticles: [

@@ -6,8 +6,11 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import { Container, ContentWithPaddingXl } from "components/Layouts.js";
 import { SectionHeading } from "components/Headings.js";
 
-import PackagingTrayImg from "images/Tray_2.jpeg";
-import DisplayTrayImg from "images/Display_Trays.jpeg"
+import PackagingTrayImg from "images/Products/Packaging_Trays.jpeg";
+import DisplayTrayImg from "images/Products/Display_Trays.jpeg"
+import MaterialTrayImg from "images/Products/Packaging_Tray.jpeg"
+import SealingTrayImg from "images/Products/Sealing_Blister_1.png"
+import SlidingTrayImg from "images/Products/Sliding_Blister.png"
 
 const PrimaryButtonBase = tw.button`px-8 py-3 font-bold rounded bg-brown-200 text-gray-100 hocus:bg-brown-400 hocus:text-gray-200 focus:shadow-outline focus:outline-none transition duration-300`;
 const HeaderRow = tw.div`flex justify-between items-center flex-col xl:flex-row`;
@@ -60,19 +63,19 @@ export default ({
         url: "#"
       },
       {
-        imageSrc:PackagingTrayImg,
+        imageSrc:MaterialTrayImg,
         title: "Material Handling Trays",
         content: "Blister Trays",
         url: "#"
       },
       {
-        imageSrc:PackagingTrayImg,
+        imageSrc:SealingTrayImg,
         title: "Sealing Blisters",
         content: "Card Blisters",
         url: "#"
       },
       {
-        imageSrc:PackagingTrayImg,
+        imageSrc:SlidingTrayImg,
         title: "Sliding Blisters",
         content: "Card Blisters",
         url: "#"
